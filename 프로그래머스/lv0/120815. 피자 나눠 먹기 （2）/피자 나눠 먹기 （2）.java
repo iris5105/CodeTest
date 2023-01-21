@@ -1,11 +1,10 @@
 class Solution {
     public int solution(int n) {
-        int answer = 1;
-        while(true){
+        int answer = 0;
+        while(answer++<n){
             if((answer*6)%n==0){
                 break;
             }
-            answer++;
         }
         return answer;
     }
