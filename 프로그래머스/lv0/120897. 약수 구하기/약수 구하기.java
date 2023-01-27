@@ -9,7 +9,6 @@ class Solution {
             }
         }
         int[] answer = list.stream().mapToInt(Integer::intValue).toArray();
-        Arrays.sort(answer);
         return answer;
     }
 }
